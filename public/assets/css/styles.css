@@ -1,0 +1,39 @@
+.teste{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right top, rgb(170, 79, 79), rgb(187, 28, 126));
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin:0;
+    padding: 0;
+    width: 100vw;
+    text-align: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+.teste h1{
+
+    color:aliceblue;
+    animation: move;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+
+
+@keyframes move {
+
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+    to{
+
+        opacity: 1;
+        transform: translateX(0px);
+    }
+    
+}
